@@ -24,15 +24,15 @@ app.get('/robot_status', (req, res) => {
     date: new Date().toISOString(),
     data: [
       {
-        line_id: 5,
+        line_id: 1,
         line_status_code: 3,
         robots_data: [
-          { robot_id: 101, robot_status_code: 1 },
-          { robot_id: 102, robot_status_code: 2 }
+          { robot_id: 11, robot_status_code: 4 },
+          { robot_id: 12, robot_status_code: 2 }
         ]
       },
       {
-        line_id: 6,
+        line_id: 2,
         line_status_code: 1,
         robots_data: null
       }
